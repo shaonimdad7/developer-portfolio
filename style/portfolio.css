@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: #FFF8F3; */
+}
+
+.text-color {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    padding: 18px 35px;
+    height: 64px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+    border: 0px;
+
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* header and navigation style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav_item {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.text-color {
+    color: #FD6E0A;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* banner style */
+.banner {
+    margin: 0 200px;
+    align-items: center;
+    display: flex;
+}
+
+.banner_sub {
+    color: #474747;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+
+.banner_title {
+    color: #181818;
+    font-weight: 600;
+    font-size: 65px;
+    margin-bottom: 10px;
+
+}
+
+.banner_des {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* about section style */
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.section_title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+}
+
+.section_description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.about_info_container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.about_info {
+    margin-left: 40px;
+
+}
+
+.into_title {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 5px;
+}
+
+.info_des {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
